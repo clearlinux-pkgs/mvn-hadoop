@@ -4,7 +4,7 @@
 #
 Name     : mvn-hadoop
 Version  : 1
-Release  : 1
+Release  : 2
 URL      : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
 Source0  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
 Source1  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.jar
@@ -51,6 +51,17 @@ Source41  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-s
 Source42  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0/hadoop-yarn-server-web-proxy-3.2.0.pom
 Source43  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/3.2.0/hadoop-yarn-server-3.2.0.pom
 Source44  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/3.2.0/hadoop-yarn-3.2.0.pom
+Source45  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+Source46  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
+Source47  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-tests.jar
+Source48  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar
+Source49  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.pom
+Source50  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1-tests.jar
+Source51  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.jar
+Source52  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.pom
+Source53  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
+Source54  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
+Source55  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -207,6 +218,39 @@ cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hado
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/3.2.0
 cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/3.2.0/hadoop-yarn-3.2.0.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-tests.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1-tests.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.5.1
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.5.1
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
+
 
 %files
 %defattr(-,root,root,-)
@@ -215,14 +259,23 @@ cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hado
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.pom
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.pom
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-tests.jar
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.pom
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1-tests.jar
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.jar
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.pom
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.2.0/hadoop-main-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.pom
@@ -231,7 +284,9 @@ cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hado
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/3.2.0/hadoop-mapreduce-client-3.2.0.pom
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.2.0/hadoop-project-dist-3.2.0.pom
+/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.2.0/hadoop-project-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.pom
