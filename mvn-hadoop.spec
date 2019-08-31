@@ -4,7 +4,7 @@
 #
 Name     : mvn-hadoop
 Version  : 1
-Release  : 4
+Release  : 5
 URL      : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
 Source0  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
 Source1  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.jar
