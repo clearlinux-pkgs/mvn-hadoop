@@ -166,3 +166,5 @@ f8da452fb8fdfe5e08828e631775f06b23a08667/hadoop-yarn-server-nodemanager-2.7.4.po
 aedfd858944b35b57898d63c67361ff9ea960915/hadoop-yarn-server-resourcemanager-2.4.1.pom
 e7fe7f83d9e5b0179492d51b3c6e5489bdb94aa3/hadoop-yarn-server-tests-2.4.1.pom
 ecbf48c29e0ad9233652d4dc6c2dcc0011cddf81/hadoop-yarn-server-web-proxy-2.4.1.pom
+36ec630ddc0748efaeefaa146a8a210ff6693225/hadoop-mapreduce-client-shuffle-2.4.1.jar
+0c0ea05f47a417343bbd10efe70b3b3ad44f7ab2/hadoop-mapreduce-client-shuffle-2.4.1.pom
