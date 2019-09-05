@@ -168,3 +168,11 @@ e7fe7f83d9e5b0179492d51b3c6e5489bdb94aa3/hadoop-yarn-server-tests-2.4.1.pom
 ecbf48c29e0ad9233652d4dc6c2dcc0011cddf81/hadoop-yarn-server-web-proxy-2.4.1.pom
 36ec630ddc0748efaeefaa146a8a210ff6693225/hadoop-mapreduce-client-shuffle-2.4.1.jar
 0c0ea05f47a417343bbd10efe70b3b3ad44f7ab2/hadoop-mapreduce-client-shuffle-2.4.1.pom
+96da79f9773e0a23803e0894878c74324fe066e4/hadoop-mapreduce-client-app-2.4.1.jar
+02d88cd2889558baccff7c1f4c2a6616c5edcad4/hadoop-mapreduce-client-app-2.4.1.pom
+eb6ff67c7177e69128a43482f493676ef6df722b/hadoop-mapreduce-client-hs-2.4.1.jar
+91a432691480c1b1a4c7454b31d0aca2ef92f2bc/hadoop-mapreduce-client-hs-2.4.1.pom
+cd0cc0abdd2f63226ba1476abaaf2a3efb1d7501/hadoop-aws-3.1.0.pom
+6cb68b4e819ee8ca9b8b4b74847cd58feee74121/hadoop-aws-3.1.0.jar
+216f887783a94501cf6257f694583c3846849018/hadoop-openstack-2.8.1.jar
+dd5fb49ea8550ce73524c4da5ce1ea16f24caa8d/hadoop-openstack-2.8.1.pom
