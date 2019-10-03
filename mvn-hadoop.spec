@@ -4,197 +4,151 @@
 #
 Name     : mvn-hadoop
 Version  : 1
-Release  : 9
-URL      : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
-Source0  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
-Source1  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.jar
-Source2  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.pom
-Source3  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.jar
-Source4  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.pom
-Source5  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.jar
-Source6  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.pom
-Source7  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.jar
-Source8  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.pom
-Source9  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.jar
-Source10  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.pom
-Source11  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.jar
-Source12  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.pom
-Source13  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.jar
-Source14  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.pom
-Source15  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.jar
-Source16  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.pom
-Source17  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.jar
-Source18  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.pom
-Source19  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.jar
-Source20  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.pom
-Source21  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
-Source22  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.pom
-Source23  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.jar
-Source24  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.pom
-Source25  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.jar
-Source26  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.pom
-Source27  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.jar
-Source28  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.pom
-Source29  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/3.2.0/hadoop-main-3.2.0.pom
-Source30  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.jar
-Source31  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.pom
-Source32  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4.pom
-Source33  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.jar
-Source34  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.pom
-Source35  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.jar
-Source36  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.pom
-Source37  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar
-Source38  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.pom
-Source39  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0/hadoop-mapreduce-client-core-3.2.0.jar
-Source40  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0/hadoop-mapreduce-client-core-3.2.0.pom
-Source41  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1-tests.jar
-Source42  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.jar
-Source43  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.pom
-Source44  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4/hadoop-mapreduce-client-jobclient-2.7.4.pom
-Source45  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.jar
-Source46  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.pom
-Source47  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.4.1/hadoop-mapreduce-client-2.4.1.pom
-Source48  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.7.4/hadoop-mapreduce-client-2.7.4.pom
-Source49  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/3.2.0/hadoop-mapreduce-client-3.2.0.pom
-Source50  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.jar
-Source51  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.pom
-Source52  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.jar
-Source53  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.pom
-Source54  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.jar
-Source55  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.pom
-Source56  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/3.2.0/hadoop-project-dist-3.2.0.pom
-Source57  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/3.2.0/hadoop-project-3.2.0.pom
-Source58  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.jar
-Source59  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.pom
-Source60  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.jar
-Source61  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.pom
-Source62  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.jar
-Source63  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.pom
-Source64  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.jar
-Source65  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.pom
-Source66  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.jar
-Source67  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.pom
-Source68  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.7.4/hadoop-yarn-client-2.7.4.pom
-Source69  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/3.2.0/hadoop-yarn-client-3.2.0.jar
-Source70  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/3.2.0/hadoop-yarn-client-3.2.0.pom
-Source71  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.jar
-Source72  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.pom
-Source73  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.jar
-Source74  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.pom
-Source75  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/3.2.0/hadoop-yarn-common-3.2.0.jar
-Source76  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/3.2.0/hadoop-yarn-common-3.2.0.pom
-Source77  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-registry/3.2.0/hadoop-yarn-registry-3.2.0.jar
-Source78  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-registry/3.2.0/hadoop-yarn-registry-3.2.0.pom
-Source79  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.jar
-Source80  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.pom
-Source81  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0/hadoop-yarn-server-applicationhistoryservice-3.2.0.jar
-Source82  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0/hadoop-yarn-server-applicationhistoryservice-3.2.0.pom
-Source83  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.jar
-Source84  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.pom
-Source85  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4.pom
-Source86  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/3.2.0/hadoop-yarn-server-common-3.2.0.jar
-Source87  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/3.2.0/hadoop-yarn-server-common-3.2.0.pom
-Source88  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.jar
-Source89  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.pom
-Source90  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.pom
-Source91  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0/hadoop-yarn-server-nodemanager-3.2.0.jar
-Source92  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0/hadoop-yarn-server-nodemanager-3.2.0.pom
-Source93  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.jar
-Source94  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.pom
-Source95  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0/hadoop-yarn-server-resourcemanager-3.2.0.jar
-Source96  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0/hadoop-yarn-server-resourcemanager-3.2.0.pom
-Source97  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1-tests.jar
-Source98  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.jar
-Source99  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.pom
-Source100  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0/hadoop-yarn-server-tests-3.2.0-tests.jar
-Source101  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0/hadoop-yarn-server-tests-3.2.0.pom
-Source102  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0/hadoop-yarn-server-timelineservice-3.2.0.jar
-Source103  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0/hadoop-yarn-server-timelineservice-3.2.0.pom
-Source104  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.jar
-Source105  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.pom
-Source106  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0/hadoop-yarn-server-web-proxy-3.2.0.jar
-Source107  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0/hadoop-yarn-server-web-proxy-3.2.0.pom
-Source108  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.4.1/hadoop-yarn-server-2.4.1.pom
-Source109  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.7.4/hadoop-yarn-server-2.7.4.pom
-Source110  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/3.2.0/hadoop-yarn-server-3.2.0.pom
-Source111  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.4.1/hadoop-yarn-2.4.1.pom
-Source112  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.7.4/hadoop-yarn-2.7.4.pom
-Source113  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/3.2.0/hadoop-yarn-3.2.0.pom
-Source114  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.jar
-Source115  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.pom
-Source116  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
-Source117  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
-Source118  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.jar
-Source119  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.pom
-Source120  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.jar
-Source121  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.pom
-Source122  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.jar
-Source123  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.pom
-Source124  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.jar
-Source125  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.pom
-Source126  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.jar
-Source127  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.pom
-Source128  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1-tests.jar
-Source129  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.jar
-Source130  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.pom
-Source131  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-tests.jar
-Source132  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar
-Source133  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.pom
-Source134  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.jar
-Source135  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.pom
-Source136  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar
-Source137  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.pom
-Source138  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.jar
-Source139  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.pom
-Source140  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.jar
-Source141  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.pom
-Source142  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1-tests.jar
-Source143  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.jar
-Source144  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.pom
-Source145  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1-tests.jar
-Source146  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.jar
-Source147  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.pom
-Source148  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.jar
-Source149  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.pom
-Source150  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.jar
-Source151  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.pom
-Source152  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.4.1/hadoop-main-2.4.1.pom
-Source153  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
-Source154  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.7.0/hadoop-main-2.7.0.pom
-Source155  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.7.2/hadoop-main-2.7.2.pom
-Source156  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.7.4/hadoop-main-2.7.4.pom
-Source157  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.8.1/hadoop-main-2.8.1.pom
-Source158  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/3.1.0/hadoop-main-3.1.0.pom
-Source159  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.jar
-Source160  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.pom
-Source161  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.jar
-Source162  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.pom
-Source163  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.jar
-Source164  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.pom
-Source165  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.jar
-Source166  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.pom
-Source167  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.jar
-Source168  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.pom
-Source169  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.jar
-Source170  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.pom
-Source171  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.4.1/hadoop-project-dist-2.4.1.pom
-Source172  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
-Source173  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.7.0/hadoop-project-dist-2.7.0.pom
-Source174  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.7.4/hadoop-project-dist-2.7.4.pom
-Source175  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.8.1/hadoop-project-dist-2.8.1.pom
-Source176  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/3.1.0/hadoop-project-dist-3.1.0.pom
-Source177  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.4.1/hadoop-project-2.4.1.pom
-Source178  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
-Source179  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.7.0/hadoop-project-2.7.0.pom
-Source180  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.7.2/hadoop-project-2.7.2.pom
-Source181  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.7.4/hadoop-project-2.7.4.pom
-Source182  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.8.1/hadoop-project-2.8.1.pom
-Source183  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/3.1.0/hadoop-project-3.1.0.pom
+Release  : 10
+URL      : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.jar
+Source0  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.jar
+Source1  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.pom
+Source2  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.jar
+Source3  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.pom
+Source4  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.jar
+Source5  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.pom
+Source6  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.jar
+Source7  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.pom
+Source8  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.jar
+Source9  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.pom
+Source10  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.jar
+Source11  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.pom
+Source12  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.jar
+Source13  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.pom
+Source14  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.jar
+Source15  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.pom
+Source16  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.jar
+Source17  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.pom
+Source18  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.jar
+Source19  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.pom
+Source20  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4.pom
+Source21  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.jar
+Source22  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.pom
+Source23  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar
+Source24  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.pom
+Source25  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1-tests.jar
+Source26  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.jar
+Source27  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.pom
+Source28  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4/hadoop-mapreduce-client-jobclient-2.7.4.pom
+Source29  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.4.1/hadoop-mapreduce-client-2.4.1.pom
+Source30  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.7.4/hadoop-mapreduce-client-2.7.4.pom
+Source31  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.jar
+Source32  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.pom
+Source33  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.jar
+Source34  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.pom
+Source35  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.jar
+Source36  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.pom
+Source37  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.jar
+Source38  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.pom
+Source39  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.jar
+Source40  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.pom
+Source41  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.jar
+Source42  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.pom
+Source43  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.jar
+Source44  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.pom
+Source45  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.7.4/hadoop-yarn-client-2.7.4.pom
+Source46  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.jar
+Source47  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.pom
+Source48  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.jar
+Source49  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.pom
+Source50  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.jar
+Source51  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.pom
+Source52  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.jar
+Source53  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.pom
+Source54  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4.pom
+Source55  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.jar
+Source56  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.pom
+Source57  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.pom
+Source58  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.jar
+Source59  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.pom
+Source60  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1-tests.jar
+Source61  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.jar
+Source62  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.pom
+Source63  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.jar
+Source64  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.pom
+Source65  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.4.1/hadoop-yarn-server-2.4.1.pom
+Source66  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.7.4/hadoop-yarn-server-2.7.4.pom
+Source67  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.4.1/hadoop-yarn-2.4.1.pom
+Source68  : https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.7.4/hadoop-yarn-2.7.4.pom
+Source69  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.jar
+Source70  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.pom
+Source71  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+Source72  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
+Source73  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.jar
+Source74  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.pom
+Source75  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.jar
+Source76  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.pom
+Source77  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.jar
+Source78  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.pom
+Source79  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.jar
+Source80  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.pom
+Source81  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.jar
+Source82  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.pom
+Source83  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1-tests.jar
+Source84  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.jar
+Source85  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.pom
+Source86  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-tests.jar
+Source87  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar
+Source88  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.pom
+Source89  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.jar
+Source90  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.pom
+Source91  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar
+Source92  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.pom
+Source93  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.jar
+Source94  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.pom
+Source95  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.jar
+Source96  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.pom
+Source97  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1-tests.jar
+Source98  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.jar
+Source99  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.pom
+Source100  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1-tests.jar
+Source101  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.jar
+Source102  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.pom
+Source103  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.jar
+Source104  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.pom
+Source105  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.jar
+Source106  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.pom
+Source107  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.4.1/hadoop-main-2.4.1.pom
+Source108  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
+Source109  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.7.0/hadoop-main-2.7.0.pom
+Source110  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.7.2/hadoop-main-2.7.2.pom
+Source111  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.7.4/hadoop-main-2.7.4.pom
+Source112  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/2.8.1/hadoop-main-2.8.1.pom
+Source113  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-main/3.1.0/hadoop-main-3.1.0.pom
+Source114  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.jar
+Source115  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.pom
+Source116  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.jar
+Source117  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.pom
+Source118  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.jar
+Source119  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.pom
+Source120  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.jar
+Source121  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.pom
+Source122  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.jar
+Source123  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.pom
+Source124  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.jar
+Source125  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.pom
+Source126  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.4.1/hadoop-project-dist-2.4.1.pom
+Source127  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
+Source128  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.7.0/hadoop-project-dist-2.7.0.pom
+Source129  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.7.4/hadoop-project-dist-2.7.4.pom
+Source130  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/2.8.1/hadoop-project-dist-2.8.1.pom
+Source131  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project-dist/3.1.0/hadoop-project-dist-3.1.0.pom
+Source132  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.4.1/hadoop-project-2.4.1.pom
+Source133  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
+Source134  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.7.0/hadoop-project-2.7.0.pom
+Source135  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.7.2/hadoop-project-2.7.2.pom
+Source136  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.7.4/hadoop-project-2.7.4.pom
+Source137  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.8.1/hadoop-project-2.8.1.pom
+Source138  : https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/3.1.0/hadoop-project-3.1.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-hadoop-data = %{version}-%{release}
-Requires: mvn-hadoop-license = %{version}-%{release}
 BuildRequires : apache-maven
 BuildRequires : buildreq-mvn
 
@@ -209,573 +163,428 @@ Group: Data
 data components for the mvn-hadoop package.
 
 
-%package license
-Summary: license components for the mvn-hadoop package.
-Group: Default
-
-%description license
-license components for the mvn-hadoop package.
-
-
 %prep
 %setup -q -n META-INF
 
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/package-licenses/mvn-hadoop
-cp LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-hadoop/LICENSE.txt
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.1
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.1
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.1
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.pom
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.4.1/hadoop-annotations-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.0
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.jar
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.0
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.pom
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.4
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.jar
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.4
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.pom
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.4/hadoop-annotations-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.8.1
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.jar
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.8.1
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.pom
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.jar
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.pom
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.jar
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.pom
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.jar
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.pom
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.jar
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.pom
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.jar
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.2.0
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.2.0/hadoop-main-3.2.0.pom
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.jar
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.pom
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0/hadoop-mapreduce-client-core-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0/hadoop-mapreduce-client-core-3.2.0.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1-tests.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.jar
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.pom
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4/hadoop-mapreduce-client-jobclient-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4/hadoop-mapreduce-client-jobclient-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.4.1
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.4.1/hadoop-mapreduce-client-2.4.1.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.4.1/hadoop-mapreduce-client-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.7.4
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.7.4/hadoop-mapreduce-client-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/3.2.0
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/3.2.0/hadoop-mapreduce-client-3.2.0.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.7.4/hadoop-mapreduce-client-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.jar
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/2.4.1
-cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.jar
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/2.4.1
-cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minikdc/2.7.2
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.jar
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minikdc/2.7.2
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.2.0
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.2.0/hadoop-project-dist-3.2.0.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.2.0
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.2.0/hadoop-project-3.2.0.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minikdc/2.7.2/hadoop-minikdc-2.7.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.jar
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.pom
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.jar
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.jar
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.pom
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1
-cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.jar
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1
-cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.pom
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.7.4
-cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.7.4/hadoop-yarn-client-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/3.2.0
-cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/3.2.0/hadoop-yarn-client-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/3.2.0
-cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/3.2.0/hadoop-yarn-client-3.2.0.pom
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.7.4/hadoop-yarn-client-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1
-cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.jar
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1
-cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.pom
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4
-cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.jar
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4
-cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/3.2.0
-cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/3.2.0/hadoop-yarn-common-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/3.2.0
-cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/3.2.0/hadoop-yarn-common-3.2.0.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-registry/3.2.0
-cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-registry/3.2.0/hadoop-yarn-registry-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-registry/3.2.0
-cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-registry/3.2.0/hadoop-yarn-registry-3.2.0.pom
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1
-cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.jar
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1
-cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0
-cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0/hadoop-yarn-server-applicationhistoryservice-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0
-cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0/hadoop-yarn-server-applicationhistoryservice-3.2.0.pom
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1
-cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.jar
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1
-cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.pom
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.7.4
-cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/3.2.0
-cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/3.2.0/hadoop-yarn-server-common-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/3.2.0
-cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/3.2.0/hadoop-yarn-server-common-3.2.0.pom
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1
-cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.jar
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1
-cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.pom
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4
-cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0
-cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0/hadoop-yarn-server-nodemanager-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0
-cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0/hadoop-yarn-server-nodemanager-3.2.0.pom
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1
-cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.jar
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1
-cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0
-cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0/hadoop-yarn-server-resourcemanager-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0
-cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0/hadoop-yarn-server-resourcemanager-3.2.0.pom
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1
-cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1-tests.jar
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1
-cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.jar
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1
-cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0
-cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0/hadoop-yarn-server-tests-3.2.0-tests.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0
-cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0/hadoop-yarn-server-tests-3.2.0.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0
-cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0/hadoop-yarn-server-timelineservice-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0
-cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0/hadoop-yarn-server-timelineservice-3.2.0.pom
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1
-cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.jar
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1
-cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0
-cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0/hadoop-yarn-server-web-proxy-3.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0
-cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0/hadoop-yarn-server-web-proxy-3.2.0.pom
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.4.1
-cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.4.1/hadoop-yarn-server-2.4.1.pom
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.4.1/hadoop-yarn-server-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.7.4
-cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.7.4/hadoop-yarn-server-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/3.2.0
-cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/3.2.0/hadoop-yarn-server-3.2.0.pom
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.7.4/hadoop-yarn-server-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.4.1
-cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.4.1/hadoop-yarn-2.4.1.pom
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.4.1/hadoop-yarn-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.7.4
-cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.7.4/hadoop-yarn-2.7.4.pom
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/3.2.0
-cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/3.2.0/hadoop-yarn-3.2.0.pom
+cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.7.4/hadoop-yarn-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1
-cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.jar
+cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1
-cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.pom
+cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1
-cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1
-cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
+cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.0
-cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.jar
+cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.0
-cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.pom
+cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.4
-cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.jar
+cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.4
-cp %{SOURCE121} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.pom
+cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.4/hadoop-auth-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.8.1
-cp %{SOURCE122} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.jar
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.8.1
-cp %{SOURCE123} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.pom
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0
-cp %{SOURCE124} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.jar
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0
-cp %{SOURCE125} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.pom
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0
-cp %{SOURCE126} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.jar
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0
-cp %{SOURCE127} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.pom
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1
-cp %{SOURCE128} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1-tests.jar
+cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1
-cp %{SOURCE129} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.jar
+cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1
-cp %{SOURCE130} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.pom
+cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1
-cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-tests.jar
+cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1
-cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar
+cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1
-cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.pom
+cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.0
-cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.jar
+cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.0
-cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.pom
+cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.4
-cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar
+cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.4
-cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.pom
+cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.8.1
-cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.jar
+cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.8.1
-cp %{SOURCE139} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.pom
+cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0
-cp %{SOURCE140} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.jar
+cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0
-cp %{SOURCE141} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.pom
+cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1
-cp %{SOURCE142} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1-tests.jar
+cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1
-cp %{SOURCE143} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.jar
+cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1
-cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.pom
+cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1
-cp %{SOURCE145} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1-tests.jar
+cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1-tests.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1
-cp %{SOURCE146} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.jar
+cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1
-cp %{SOURCE147} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.pom
+cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.1/hadoop-hdfs-2.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.7.4
-cp %{SOURCE148} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.jar
+cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.7.4
-cp %{SOURCE149} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.pom
+cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.7.4/hadoop-hdfs-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.8.1
-cp %{SOURCE150} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.jar
+cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.8.1
-cp %{SOURCE151} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.pom
+cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.8.1/hadoop-hdfs-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.4.1
-cp %{SOURCE152} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.4.1/hadoop-main-2.4.1.pom
+cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.4.1/hadoop-main-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.5.1
-cp %{SOURCE153} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
+cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.0
-cp %{SOURCE154} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.0/hadoop-main-2.7.0.pom
+cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.0/hadoop-main-2.7.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.2
-cp %{SOURCE155} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.2/hadoop-main-2.7.2.pom
+cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.2/hadoop-main-2.7.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.4
-cp %{SOURCE156} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.4/hadoop-main-2.7.4.pom
+cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.4/hadoop-main-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.8.1
-cp %{SOURCE157} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.8.1/hadoop-main-2.8.1.pom
+cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.8.1/hadoop-main-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.1.0
-cp %{SOURCE158} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.1.0/hadoop-main-3.1.0.pom
+cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.1.0/hadoop-main-3.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1
-cp %{SOURCE159} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.jar
+cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1
-cp %{SOURCE160} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.pom
+cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4
-cp %{SOURCE161} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.jar
+cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4
-cp %{SOURCE162} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.pom
+cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1
-cp %{SOURCE163} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.jar
+cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1
-cp %{SOURCE164} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.pom
+cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1
-cp %{SOURCE165} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.jar
+cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1
-cp %{SOURCE166} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.pom
+cp %{SOURCE121} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4
-cp %{SOURCE167} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.jar
+cp %{SOURCE122} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4
-cp %{SOURCE168} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.pom
+cp %{SOURCE123} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-openstack/2.8.1
-cp %{SOURCE169} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.jar
+cp %{SOURCE124} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-openstack/2.8.1
-cp %{SOURCE170} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.pom
+cp %{SOURCE125} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-openstack/2.8.1/hadoop-openstack-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.4.1
-cp %{SOURCE171} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.4.1/hadoop-project-dist-2.4.1.pom
+cp %{SOURCE126} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.4.1/hadoop-project-dist-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.5.1
-cp %{SOURCE172} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
+cp %{SOURCE127} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.7.0
-cp %{SOURCE173} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.7.0/hadoop-project-dist-2.7.0.pom
+cp %{SOURCE128} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.7.0/hadoop-project-dist-2.7.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.7.4
-cp %{SOURCE174} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.7.4/hadoop-project-dist-2.7.4.pom
+cp %{SOURCE129} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.7.4/hadoop-project-dist-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.8.1
-cp %{SOURCE175} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.8.1/hadoop-project-dist-2.8.1.pom
+cp %{SOURCE130} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.8.1/hadoop-project-dist-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.1.0
-cp %{SOURCE176} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.1.0/hadoop-project-dist-3.1.0.pom
+cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.1.0/hadoop-project-dist-3.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.4.1
-cp %{SOURCE177} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.4.1/hadoop-project-2.4.1.pom
+cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.4.1/hadoop-project-2.4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1
-cp %{SOURCE178} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
+cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.0
-cp %{SOURCE179} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.0/hadoop-project-2.7.0.pom
+cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.0/hadoop-project-2.7.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.2
-cp %{SOURCE180} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.2/hadoop-project-2.7.2.pom
+cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.2/hadoop-project-2.7.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.4
-cp %{SOURCE181} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.4/hadoop-project-2.7.4.pom
+cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.4/hadoop-project-2.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.8.1
-cp %{SOURCE182} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.8.1/hadoop-project-2.8.1.pom
+cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.8.1/hadoop-project-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.1.0
-cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.1.0/hadoop-project-3.1.0.pom
+cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.1.0/hadoop-project-3.1.0.pom
 
 
 %files
@@ -793,8 +602,6 @@ cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/had
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/2.8.1/hadoop-annotations-2.8.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.1.0/hadoop-annotations-3.1.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-annotations/3.2.0/hadoop-annotations-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.4.1/hadoop-auth-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
@@ -807,16 +614,12 @@ cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/had
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/2.8.1/hadoop-auth-2.8.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.1.0/hadoop-auth-3.1.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-auth/3.2.0/hadoop-auth-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-aws/3.1.0/hadoop-aws-3.1.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.7.4/hadoop-client-2.7.4.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/2.8.1/hadoop-client-2.8.1.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-client/3.2.0/hadoop-client-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1-tests.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.4.1/hadoop-common-2.4.1.pom
@@ -831,14 +634,10 @@ cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/had
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.1.0/hadoop-common-3.1.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-common/3.2.0/hadoop-common-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-core/1.0.3/hadoop-core-1.0.3.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/2.8.1/hadoop-hdfs-client-2.8.1.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.2.0/hadoop-hdfs-client-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1-tests.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.4.1/hadoop-hdfs-2.4.1.pom
@@ -856,7 +655,6 @@ cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/had
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.7.4/hadoop-main-2.7.4.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/2.8.1/hadoop-main-2.8.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.1.0/hadoop-main-3.1.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-main/3.2.0/hadoop-main-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.4.1/hadoop-mapreduce-client-app-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.jar
@@ -864,29 +662,22 @@ cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/had
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.4.1/hadoop-mapreduce-client-common-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/3.2.0/hadoop-mapreduce-client-common-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.1/hadoop-mapreduce-client-core-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0/hadoop-mapreduce-client-core-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/3.2.0/hadoop-mapreduce-client-core-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-hs/2.4.1/hadoop-mapreduce-client-hs-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1-tests.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.4.1/hadoop-mapreduce-client-jobclient-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.4/hadoop-mapreduce-client-jobclient-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/3.2.0/hadoop-mapreduce-client-jobclient-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.4.1/hadoop-mapreduce-client-shuffle-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.7.4/hadoop-mapreduce-client-shuffle-2.7.4.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.4.1/hadoop-mapreduce-client-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/2.7.4/hadoop-mapreduce-client-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client/3.2.0/hadoop-mapreduce-client-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/1.0.3/hadoop-minicluster-1.0.3.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-minicluster/2.4.1/hadoop-minicluster-2.4.1.jar
@@ -901,7 +692,6 @@ cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/had
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.7.4/hadoop-project-dist-2.7.4.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/2.8.1/hadoop-project-dist-2.8.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.1.0/hadoop-project-dist-3.1.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project-dist/3.2.0/hadoop-project-dist-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.4.1/hadoop-project-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.0/hadoop-project-2.7.0.pom
@@ -909,64 +699,35 @@ cp %{SOURCE183} %{buildroot}/usr/share/java/.m2/repository/org/apache/hadoop/had
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.7.4/hadoop-project-2.7.4.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/2.8.1/hadoop-project-2.8.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.1.0/hadoop-project-3.1.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-project/3.2.0/hadoop-project-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-test/1.0.3/hadoop-test-1.0.3.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.4.1/hadoop-yarn-api-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.7.4/hadoop-yarn-api-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-api/3.2.0/hadoop-yarn-api-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.4.1/hadoop-yarn-client-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.7.4/hadoop-yarn-client-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/3.2.0/hadoop-yarn-client-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-client/3.2.0/hadoop-yarn-client-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.4.1/hadoop-yarn-common-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.7.4/hadoop-yarn-common-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/3.2.0/hadoop-yarn-common-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-common/3.2.0/hadoop-yarn-common-3.2.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-registry/3.2.0/hadoop-yarn-registry-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-registry/3.2.0/hadoop-yarn-registry-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/2.4.1/hadoop-yarn-server-applicationhistoryservice-2.4.1.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0/hadoop-yarn-server-applicationhistoryservice-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-applicationhistoryservice/3.2.0/hadoop-yarn-server-applicationhistoryservice-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.4.1/hadoop-yarn-server-common-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.7.4/hadoop-yarn-server-common-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/3.2.0/hadoop-yarn-server-common-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/3.2.0/hadoop-yarn-server-common-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.4.1/hadoop-yarn-server-nodemanager-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0/hadoop-yarn-server-nodemanager-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-nodemanager/3.2.0/hadoop-yarn-server-nodemanager-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.4.1/hadoop-yarn-server-resourcemanager-2.4.1.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0/hadoop-yarn-server-resourcemanager-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-resourcemanager/3.2.0/hadoop-yarn-server-resourcemanager-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1-tests.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/2.4.1/hadoop-yarn-server-tests-2.4.1.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0/hadoop-yarn-server-tests-3.2.0-tests.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-tests/3.2.0/hadoop-yarn-server-tests-3.2.0.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0/hadoop-yarn-server-timelineservice-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-timelineservice/3.2.0/hadoop-yarn-server-timelineservice-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.jar
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.4.1/hadoop-yarn-server-web-proxy-2.4.1.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0/hadoop-yarn-server-web-proxy-3.2.0.jar
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server-web-proxy/3.2.0/hadoop-yarn-server-web-proxy-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.4.1/hadoop-yarn-server-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/2.7.4/hadoop-yarn-server-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn-server/3.2.0/hadoop-yarn-server-3.2.0.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.4.1/hadoop-yarn-2.4.1.pom
 /usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/2.7.4/hadoop-yarn-2.7.4.pom
-/usr/share/java/.m2/repository/org/apache/hadoop/hadoop-yarn/3.2.0/hadoop-yarn-3.2.0.pom
-
-%files license
-%defattr(0644,root,root,0755)
-/usr/share/package-licenses/mvn-hadoop/LICENSE.txt
